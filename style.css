@@ -1,0 +1,64 @@
+.alert {
+  padding: 15px;
+  border: 1px solid #d6e9c6;
+  border-radius: 4px;
+  color: #3c763d;
+  background-color: #dff0d8;
+}
+.list {
+  background-color: crimson;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.lista {
+  border: 20px;
+  padding: 200px;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: crimson;
+}
+.highlight {
+  background-color: crimson;
+}
+td {
+  width: 100px;
+  height: 50px;
+  border: 1px solid crimson;
+}
+.selected {
+  background-color: greenyellow;
+}
+#inout td {
+  width: 100px;
+  height: 50px;
+}
+#navPanel {
+  width: 600px;
+  height: 600px;
+  background-color: grey;
+}
+#innerPanel {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+#firstLetter::first-letter {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  font-weight: bolder;
+}
+#firstLetter::before {
+  content: 'HOT TIP!';
+}
+input:focus {
+  background-color: red;
+}
+p::selection {
+  background-color: darkblue;
+  color: lightblue;
+}
+.lorem strong:first-child {
+  color: purple;
+}
